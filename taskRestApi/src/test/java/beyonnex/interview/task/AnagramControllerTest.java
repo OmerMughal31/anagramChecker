@@ -3,12 +3,12 @@ package beyonnex.interview.task;
 import beyonnex.task.controller.TaskRestController;
 import beyonnex.task.inputs.InputStrings;
 import beyonnex.task.main.AnagramCheckerRestApi;
-import beyonnex.task.service.FeatureImpl;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
+import org.springframework.boot.test.context.SpringBootTest;
 
 import java.util.Arrays;
 import java.util.List;
@@ -24,6 +24,7 @@ import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
+@SpringBootTest
 public class AnagramControllerTest {
 	/***
 	 * Class contains some tests to test the functionality of anagram checking api
