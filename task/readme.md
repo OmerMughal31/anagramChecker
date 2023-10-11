@@ -20,7 +20,6 @@ rearranging the letters of a different word or phrase, using all the original le
 ### Exception Handling
 
 - **IllegalArgumentException:** Thrown for invalid inputs. Specific error messages are provided for different cases.
-````
 
 ## Usage
 
@@ -38,7 +37,7 @@ Compile and run the application:
    ```
 
 ## Usage Examples
-
+### To check anagrams
 ```
 Enter two strings to check if they are anagrams (or type 'exit' to quit):
 listen
@@ -46,8 +45,8 @@ silent
 The two strings are anagrams!
 All Anagrams in a Run are: [listen, silent]
 Goodbye!!!
-
 ```
+### To extract strings
 ```
 Enter a string to find its anagrams (or type 'exit' to quit):
 listen
