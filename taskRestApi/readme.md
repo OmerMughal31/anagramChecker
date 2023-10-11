@@ -45,7 +45,7 @@ Extracts anagrams for the given input string.
 
 ## Dependencies
 
-- Java 8+
+- Java 17
 - Spring Boot
 - Maven or Gradle for build management
 
