@@ -1,7 +1,3 @@
-Certainly! Here's an example of how your `README.md` file might look like, incorporating the code snippets and
-documentation provided:
-
-```markdown
 # Anagram Checker Application
 
 This Java application allows users to check, evaluate, and extract anagrams. Anagrams are words or phrases formed by
@@ -59,5 +55,4 @@ Anagrams for listen: [silent]
 Enter a string to find its anagrams (or type 'exit' to quit):
 exit
 Goodbye!!!
-
 ```
