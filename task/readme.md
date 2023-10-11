@@ -22,20 +22,9 @@ rearranging the letters of a different word or phrase, using all the original le
 - **IllegalArgumentException:** Thrown for invalid inputs. Specific error messages are provided for different cases.
 
 ## Usage
+Build mvn project with Java 17
 
-Navigate to the project directory:
-
-   ```bash
-   cd anagram-checker
-   ```
-
-Compile and run the application:
-
-   ```bash
-   javac beyonnex/task/controller/*.java beyonnex/task/service/*.java
-   java beyonnex.task.controller.AnagramChecker
-   ```
-
+Run Application in IntelliJ with Java17 or your favourite IDE
 ## Usage Examples
 ### To check anagrams
 ```
