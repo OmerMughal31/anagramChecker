@@ -19,8 +19,8 @@ This approach provides a RESTful API for checking anagrams. Users can send HTTP 
 2. Send a POST request to the `/checkAnagrams` endpoint with the following JSON payload:
    ```json
    {
-     "string1": "your_first_string",
-     "string2": "your_second_string"
+     "firstString": "your_first_string",
+     "secondString": "your_second_string"
    }
    ```
 3. Send a Get request to the `/extractAnagrams/{your-string}` endpoint.

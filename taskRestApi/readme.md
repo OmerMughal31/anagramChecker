@@ -1,6 +1,6 @@
 # Anagram Checker REST API
 
-This RESTful API provides an interface for anagram-related operations, 
+This RESTful API provides an interface for anagram-related operations,
 including checking if two strings are anagrams and extracting anagrams from a given input string.
 
 ## Endpoints
@@ -15,6 +15,12 @@ Evaluates if two input strings are anagrams.
     - Method: `POST`
     - URL: `/checkanagrams`
     - Body: JSON object containing `firstString` and `secondString` properties representing the input strings.
+    - ```
+      {
+        "firstString": "your_first_string",
+        "secondString": "your_second_string"
+        }
+      ```
 - **Response:**
     - Body: `true` if the input strings are anagrams, `false` otherwise. Returns `null` if the request body is invalid.
 
@@ -39,7 +45,8 @@ Extracts anagrams for the given input string.
     - Example Response Body: `true` (if anagrams) or `false` (if not anagrams)
 
 2. **Extract Anagrams:**
-    - Send a GET request to `/extractanagrams/{input}` where `{input}` is the input string for which anagrams are to be extracted.
+    - Send a GET request to `/extractanagrams/{input}` where `{input}` is the input string for which anagrams are to be
+      extracted.
     - Example URL: `/extractanagrams/listen`
     - Example Response Body: `{"anagrams": ["silent", "enlist"]}`
 
